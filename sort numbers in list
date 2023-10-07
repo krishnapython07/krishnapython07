@@ -1,0 +1,3 @@
+krishna=[6,4,5,6,8,6,4,3,5,7,8]
+krishna.sort()
+print(krishna)
