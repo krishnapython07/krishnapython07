@@ -1,0 +1,3 @@
+krishna=("this is python")
+h=krishna.replace("is",'are')
+print(h)
