@@ -1,0 +1,10 @@
+#max num
+krishna=[1,2,3,4,5,6,7,8]
+a=max(krishna)
+print(a)
+
+#min num
+krishna=[1,2,3,4,5,6,7,8]
+a=min(krishna)
+print(a)
+
