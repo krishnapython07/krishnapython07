@@ -1,0 +1,8 @@
+data = [('Himanshu', 26), ('Muni', 20), ('Krishna', 23), ('Naresh', 40)]
+max_age_tuple = max(data, key=lambda x: x[1])
+min_age_tuple = min(data, key=lambda x: x[1])
+max_age = max_age_tuple[1]
+min_age = min_age_tuple[1]
+
+print(f"Maximum Age: {max_age} (Person: {max_age_tuple[0]})")
+print(f"Minimum Age: {min_age} (Person: {min_age_tuple[0]})")
