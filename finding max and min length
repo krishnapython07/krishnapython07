@@ -1,0 +1,8 @@
+input = [('Himanshu',26),('Muni',20),('Krishna',23),('Naresh',40)]
+min_length_list=min(input, key=lambda x:len(x[0]))
+max_length_list=max(input, key=lambda x:len(x[0]))
+min_length=min_length_list[0]
+max_length=max_length_list[0]
+print(f"the minimum length of the name {min_length} length:{len(min_length)}")
+print(f"the maximum length of the name {max_length} length:{len(max_length)}")
+
