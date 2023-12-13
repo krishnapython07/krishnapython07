@@ -1,0 +1,34 @@
+input ={
+    'Mahesh' : {
+        'Company':'Apple',
+        'Model':'iPhone 15',
+        'Price':80000
+    },
+    'Ramesh' : {
+        'Company':'Samsung',
+        'Model':'Galaxy S23 Ultra',
+        'Price':120000
+    },
+    'Suresh' : {
+        'Company':'Apple',
+        'Model':'iPhone 15 Pro Max',
+        'Price':160000
+    },
+    'Ram' : {
+        'Company':'Samsung',
+        'Model':'Galaxy Fold 5',
+        'Price':150000
+    },
+    'Krishna' : {
+        'Company':'Apple',
+        'Model':'iPhone 14 Pro Max',
+        'Price':140000
+    }
+}
+
+a = sorted(input.items(), key=lambda x: x[1]['Price'], reverse=True)
+phone_name = a[4][0]
+phone_model =a[4][1]['Model']
+print(f"person with low cost phone:")
+print(f"name :{phone_name}")
+print(f"phone:{phone_model}")
